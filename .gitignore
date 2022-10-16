@@ -33,3 +33,19 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# If you're not using Zero-Installs:
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# .env
+/src/config/.env/*
+/src/config/dalchaebi-firebase-adminsdk-nj61l-4178a741e5.json
+
+# firebase account
+firebaseAccount.json
